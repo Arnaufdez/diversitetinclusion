@@ -1,0 +1,94 @@
+
+/* estilos generales */
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+/* Clases generales */
+
+.container{
+    width: 900px;
+    margin: auto;
+}
+
+/* Seccion Header */
+
+#header{
+    background: #d3d2d2;
+    padding: 200px 0px;
+}
+
+#header h1{
+    font-size: 4em;
+    font-weight: 100;
+    text-align: center;
+    color: #111;
+    margin-bottom: 0px;
+}
+
+#header p{
+    font-style: italic;
+    text-align: center;
+    color: #595959;
+}
+
+/* Seccion2 Menu */
+
+#sec2{
+    background: #fafafa;
+    border-top: 1px solid #2e2e2e;
+    border-bottom: 1px solid #2e2e2e;
+    padding: 15px 0px;
+}
+
+#sec2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#sec2 li{
+    list-style: none;
+}
+
+#sec2 a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 1,1em;
+}
+
+#sec2 a:hover{
+    color: orange;
+
+}
+
+/* seccion 3 Cajas horizontales */
+
+#sec3{
+    padding: 200px 0px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.caja{
+    padding: 20px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.caja h2{
+    font-size: 2em;
+    color: #1965b3;
+    font-weight: 700;
+    text-align: center;
+}
+
+.caja p{
+    color: #7a7a7a;
+}
+
